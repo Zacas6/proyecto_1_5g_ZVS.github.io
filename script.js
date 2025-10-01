@@ -20,3 +20,5 @@ togglePassword.addEventListener("click", () => {
     togglePassword.setAttribute("name", "eye-outline");
   }
 });
+setupPasswordToggle("loginPassword", "toggleLoginPassword");
+setupPasswordToggle("registerPassword", "toggleRegisterPassword");
