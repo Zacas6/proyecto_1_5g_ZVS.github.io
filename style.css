@@ -74,7 +74,14 @@ body{
     background-color: inherit;
     padding-right: 30px;
 }
-container-input ion-icon#togglePassword {
+container-input ion-icon#toggleLoginPassword {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
+container-input ion-icon#toggleRegisterPassword {
     position: absolute;
     right: 10px;
     font-size: 20px;
@@ -158,3 +165,4 @@ container-input ion-icon#togglePassword {
     transform: translateX(-100%);
 
 }
+
