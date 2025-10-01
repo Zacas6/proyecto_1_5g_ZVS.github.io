@@ -80,7 +80,7 @@ body{
     margin-bottom: 20px;
     margin-top: 5px;
 }
-.button{
+button{
     width: 170px;
     height: 45px;
     font-size: 15px;
@@ -151,5 +151,6 @@ body{
     transform: translateX(-100%);
 
 }
+
 
 
