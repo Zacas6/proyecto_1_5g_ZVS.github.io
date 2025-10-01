@@ -11,7 +11,16 @@ btnSignUp.addEventListener("click",()=> {
 const togglePassword = document.getElementById("togglePassword");
 const password = document.getElementById("password");
 
-togglePassword.addEventListener("click", () => {
+toggleLoginPassword.addEventListener("click", () => {
+  if (password.type === "password") {
+    password.type = "text";
+    togglePassword.setAttribute("name", "eye-off-outline"); 
+  } else {
+    password.type = "password";
+    togglePassword.setAttribute("name", "eye-outline");
+  }
+});
+toggleRegisterPassword.addEventListener("click", () => {
   if (password.type === "password") {
     password.type = "text";
     togglePassword.setAttribute("name", "eye-off-outline"); 
@@ -22,3 +31,4 @@ togglePassword.addEventListener("click", () => {
 });
 setupPasswordToggle("loginPassword", "toggleLoginPassword");
 setupPasswordToggle("registerPassword", "toggleRegisterPassword");
+
