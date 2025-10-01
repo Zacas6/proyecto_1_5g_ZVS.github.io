@@ -64,6 +64,7 @@ body{
     gap: 8px;
     padding: 0 15px;
     background-color: #EEEEEE;
+    position: relative;
 }
 .container-input input{
     border: none;
@@ -71,6 +72,14 @@ body{
     width: 100%;
     height: 100%;
     background-color: inherit;
+    padding-right: 30px;
+}
+container-input ion-icon#togglePassword {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
 }
 .container-form a{
     color: black;
@@ -147,4 +156,5 @@ body{
 }
 .container.toggle .welcome-sign-up{
     transform: translateX(-100%);
+
 }
